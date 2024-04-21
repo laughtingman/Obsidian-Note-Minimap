@@ -6,3 +6,13 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+.cm-minimap-inner {
+	position: fixed !important;
+	top: var(--header-height) !important;
+}
+
+.cm-scroller {
+	padding-top:0!important;
+	padding-right:100px !important;
+}
