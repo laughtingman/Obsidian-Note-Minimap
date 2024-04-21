@@ -14,9 +14,8 @@ export default class MyPlugin extends Plugin {
 				return {
 					create,
 					/* optional */
-					displayText: 'blocks',
+					displayText: 'characters',
 					showOverlay: 'always',
-					gutters: [{1: '#00FF00', 2: '#00FF00'}],
 				};
 			})
 		]);
